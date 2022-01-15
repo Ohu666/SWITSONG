@@ -1,0 +1,564 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'explain_chart_font';
+    src: url("../font/Room\ No.703.ttf") format('truetype');
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.header {
+    height: 145px;
+    text-align: center;
+    border-bottom: 2px solid gray;
+}
+
+.header_logo h1 {
+    font: bold 40px 'arial';
+    padding-top: 14px;
+    letter-spacing: 2px;
+}
+
+.header_logo p {
+    font: bold 12px 'arial';
+    letter-spacing: 2px;
+}
+
+.header_gnb ul {
+    margin-top: 40px;
+    margin-right: 38px;
+}
+
+.header_gnb ul li {
+   display: inline-block; 
+}
+
+.header_gnb ul li a {
+    display: block;
+    font: bold 17px 'arial';
+    color: black;
+    margin: 0px 16px;
+}
+.header_gnb ul li:hover {
+    background-color: rgb(184, 184, 190);
+    border-radius: 13px 5px;
+}
+
+/* ===============================go menu============================== */
+#go_menu_song {
+    margin-left: 2vw;
+    width: 70vw;
+    height: 15vh;
+    border-radius: 40px 40px 40px 40px;
+    background-color: lightgray;
+    margin-top: 2vh;
+    display: flex;
+    align-items: center;
+    /* padding-bottom: 10px; */
+    /* border: 5px solid black; */
+}
+
+#go_menu_song_logo {
+    display: inline-block;
+    margin-left: 10px;
+    width: 25vw;
+    height: 10vh;
+    /* border: 5px solid black; */
+}
+
+
+#go_menu_song a {
+    color: aqua;
+    text-shadow:  3px 0 #000,
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+     -1px 1px 0 #000,
+      1px 1px 0 #000;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-left: 35px;
+    font-size: 30px;
+}
+
+/* ===============================go menu============================== */
+/* ===============================go menu============================== */
+/* ===============================go menu============================== */
+/* ===============================go menu============================== */
+/* ===============================go menu============================== */
+/* ===============================go menu============================== */
+/* ===============================go menu============================== */
+/* ===============================go menu============================== */
+/* ===============================go menu============================== */
+/* ===============================go menu============================== */
+
+#recommend {
+    color: black;
+    font-size: 21px;
+    margin-left: 2vw;
+    overflow: auto;
+    overflow-x: hidden; 
+    border-radius: 10px 10px 10px 10px;
+    width: 30vw;
+    height: 71vh;
+    padding-top: 20px;
+    padding-left: 3vw;
+    float: left;
+    border: 2px solid black;
+}
+
+.song_menu {
+    padding-bottom: 2vw;
+}
+
+.hide {
+    padding-left: 3vw;
+}
+
+.song_menu a {
+    cursor: pointer;
+}
+
+.song_menu .hide{
+    display: none;
+}
+
+
+
+/* =============================recommend============================== */
+/* =============================recommend============================== */
+/* =============================recommend============================== */
+/* =============================recommend============================== */
+/* =============================recommend============================== */
+/* =============================recommend============================== */
+/* =============================recommend============================== */
+/* =============================recommend============================== */
+/* =============================recommend============================== */
+/* =============================recommend============================== */
+
+#collection {
+    border: 2px solid black;
+    float: left;
+    color: black;
+    font-size: 15px;
+    margin-left: 2vw;
+    overflow: auto;
+    overflow-x: hidden; 
+    border-radius: 10px 10px 10px 10px;
+    width: 34vw;
+    height: 74vh;
+}
+
+.collection_part {
+    padding-top: 2vh;
+    padding-left: 1vw;
+}
+
+
+
+
+
+/* =============================collection============================= */
+/* =============================collection============================= */
+/* =============================collection============================= */
+/* =============================collection============================= */
+/* =============================collection============================= */
+/* =============================collection============================= */
+/* =============================collection============================= */
+/* =============================collection============================= */
+/* =============================collection============================= */
+/* =============================collection============================= */
+
+
+ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+li {
+    list-style: none;
+}
+
+#explain_chart {
+    border-radius: 10px 10px 10px 10px;
+    position: sticky;
+    font-family: 'explain_chart_font';
+    font-size: 18px;
+    text-decoration: bold;
+    margin-bottom: 25px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-bottom: 2px;
+    background-color: chartreuse;
+    border: 2px solid rgb(1, 102, 31);
+}
+
+#popular {
+    position: fixed; right: 5px; top:13vw;
+    float: right;
+    text-align: center;
+    width: 25vw;
+    height: 75vh;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#popular_box {
+    border-radius: 8px;
+    position: relative;
+    display: inline-block;
+    width: 23vw;
+    height: 75vh;
+    overflow: auto;
+    overflow-x: hidden; 
+    border: 2px solid black;
+    padding-top: 1px;
+}
+
+.rank {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 25px;
+    text-align: left;
+}
+
+.songname {
+    border-radius: 7px 7px 0px 0px;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+
+.singer {
+    border-radius: 0px 0px 7px 7px;
+    padding-left: 10px;
+    font-size: 13px;
+    color: gray;
+}
+
+
+/* ==================================================================== */
+/* ==================================================================== */
+/* ==================================================================== */
+
+
+
+#rank1  {
+    transition: 1ms;
+}
+
+
+#rank1 :hover .songname1 {
+    text-decoration: underline  #39d9c8;
+    color: #39d9c8;
+}
+
+#rank1 :hover > * {
+    background-color: rgb(226, 226, 226);
+}
+
+/* ==================================================================== */
+
+#rank2  {
+    transition: 1ms;
+}
+
+#rank2 :hover .songname2 {
+    text-decoration: underline  #39d9c8;
+    color: #39d9c8;
+}
+
+#rank2 :hover > * {
+    background-color: rgb(226, 226, 226);
+}
+
+/* ==================================================================== */
+
+#rank3  {
+    transition: 1ms;
+}
+
+#rank3 :hover .songname3 {
+    text-decoration: underline  #39d9c8;
+    color: #39d9c8;
+}
+
+#rank3 :hover > * {
+    background-color: rgb(226, 226, 226);
+}
+
+/* ==================================================================== */
+
+#rank4  {
+    transition: 1ms;
+}
+
+#rank4 :hover .songname4 {
+    text-decoration: underline  #39d9c8;
+    color: #39d9c8;
+}
+
+#rank4 :hover > * {
+    background-color: rgb(226, 226, 226);
+}
+
+/* ==================================================================== */
+
+#rank5  {
+    transition: 1ms;
+}
+
+#rank5 :hover .songname5 {
+    text-decoration: underline  #39d9c8;
+    color: #39d9c8;
+}
+
+#rank5 :hover > * {
+    background-color: rgb(226, 226, 226);
+}
+
+/* ==================================================================== */
+
+#rank6  {
+    transition: 1ms;
+}
+
+#rank6 :hover .songname6 {
+    text-decoration: underline  #39d9c8;
+    color: #39d9c8;
+}
+
+#rank6 :hover > * {
+    background-color: rgb(226, 226, 226);
+}
+
+/* ==================================================================== */
+
+#rank7  {
+    transition: 1ms;
+}
+
+#rank7 :hover .songname7 {
+    text-decoration: underline  #39d9c8;
+    color: #39d9c8;
+}
+
+#rank7 :hover > * {
+    background-color: rgb(226, 226, 226);
+}
+
+/* ==================================================================== */
+
+#rank8  {
+    transition: 1ms;
+}
+
+#rank8 :hover .songname8 {
+    text-decoration: underline  #39d9c8;
+    color: #39d9c8;
+}
+
+#rank8 :hover > * {
+    background-color: rgb(226, 226, 226);
+}
+
+/* ==================================================================== */
+
+#rank9  {
+    transition: 1ms;
+}
+
+#rank9 :hover .songname9 {
+    text-decoration: underline  #39d9c8;
+    color: #39d9c8;
+}
+
+#rank9 :hover > * {
+    background-color: rgb(226, 226, 226);
+}
+
+/* ==================================================================== */
+
+#rank10  {
+    transition: 1ms;
+}
+
+#rank10 :hover .songname10 {
+    text-decoration: underline  #39d9c8;
+    color: #39d9c8;
+}
+
+#rank10 :hover > * {
+    background-color: rgb(226, 226, 226);
+}
+
+/* ==================================================================== */
+
+#rank11  {
+    transition: 1ms;
+}
+
+#rank11 :hover .songname11 {
+    text-decoration: underline  #39d9c8;
+    color: #39d9c8;
+}
+
+#rank11 :hover > * {
+    background-color: rgb(226, 226, 226);
+}
+
+/* ==================================================================== */
+
+#rank12  {
+    transition: 1ms;
+}
+
+#rank12 :hover .songname12 {
+    text-decoration: underline  #39d9c8;
+    color: #39d9c8;
+}
+
+#rank12 :hover > * {
+    background-color: rgb(226, 226, 226);
+}
+
+/* ==================================================================== */
+
+#rank13  {
+    transition: 1ms;
+}
+
+#rank13 :hover .songname13 {
+    text-decoration: underline  #39d9c8;
+    color: #39d9c8;
+}
+
+#rank13 :hover > * {
+    background-color: rgb(226, 226, 226);
+}
+
+/* ==================================================================== */
+
+#rank14  {
+    transition: 1ms;
+}
+
+#rank14 :hover .songname14 {
+    text-decoration: underline  #39d9c8;
+    color: #39d9c8;
+}
+
+#rank14 :hover > * {
+    background-color: rgb(226, 226, 226);
+}
+
+/* ==================================================================== */
+
+#rank15  {
+    transition: 1ms;
+}
+
+#rank15 :hover .songname15 {
+    text-decoration: underline  #39d9c8;
+    color: #39d9c8;
+}
+
+#rank15 :hover > * {
+    background-color: rgb(226, 226, 226);
+}
+
+/* ==================================================================== */
+
+#rank16  {
+    transition: 1ms;
+}
+
+#rank16 :hover .songname16 {
+    text-decoration: underline  #39d9c8;
+    color: #39d9c8;
+}
+
+#rank16 :hover > * {
+    background-color: rgb(226, 226, 226);
+}
+
+/* ==================================================================== */
+
+#rank17  {
+    transition: 1ms;
+}
+
+#rank17 :hover .songname17 {
+    text-decoration: underline  #39d9c8;
+    color: #39d9c8;
+}
+
+#rank17 :hover > * {
+    background-color: rgb(226, 226, 226);
+}
+
+/* ==================================================================== */
+
+#rank18  {
+    transition: 1ms;
+}
+
+#rank18 :hover .songname18 {
+    text-decoration: underline  #39d9c8;
+    color: #39d9c8;
+}
+
+#rank18 :hover > * {
+    background-color: rgb(226, 226, 226);
+}
+
+/* ==================================================================== */
+
+#rank19  {
+    transition: 1ms;
+}
+
+#rank19 :hover .songname19 {
+    text-decoration: underline  #39d9c8;
+    color: #39d9c8;
+}
+
+#rank19 :hover > * {
+    background-color: rgb(226, 226, 226);
+}
+
+/* ==================================================================== */
+
+#rank20  {
+    transition: 1ms;
+}
+
+#rank20 :hover .songname20 {
+    text-decoration: underline  #39d9c8;
+    color: #39d9c8;
+}
+
+#rank20 :hover > * {
+    background-color: rgb(226, 226, 226);
+}
+
+
+/* ==================================================================== */
+/* ==================================================================== */
+
+
+#top_img {
+    position: relative; bottom: 10px; left: 40%;
+    vertical-align:middle;
+}
+
+
+/* ==================================================================== */
+/* ==================================================================== */
+/* ==================================================================== */
